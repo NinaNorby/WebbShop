@@ -1,4 +1,4 @@
-## Inlämningsuppgift+ näthandel
+## Inlämningsuppgift i Javascript 4. Testdriven utveckling , React, typescript 
 
 Vi har blivit kontaktade av en butik som ingår i en större kedja som i sina butiker säljer
 produkter till jul- och nyårs-helgerna. Allt ifrån dekorationer till belysning och konstgjorda
