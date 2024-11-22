@@ -1,0 +1,25 @@
+.navMenu {
+    list-style-type: none;
+    margin-bottom: 1rem;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navItem {
+    display: inline-block;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    color: #df8080;
+    border-radius: 4px;
+  }
+  

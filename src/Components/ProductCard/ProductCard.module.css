@@ -1,0 +1,70 @@
+.productCardWrapper {
+  color: #df8080;
+  border: 1px solid #071E22;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  text-align: center;
+  box-shadow: 0px 0px 47px -20px rgb(0, 0, 0);
+  transition: transform 0.3s, box-shadow 0.3s;
+  flex: 1 1 calc(33.333% - 32px); /* Flex-grow, flex-shrink, flex-basis */
+  max-width: 300px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ser till att allt är jämnt fördelat */
+  align-items: center; /* Centrerar innehållet horisontellt */
+}
+
+.productCardWrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.productImage {
+  width: 100%;
+  max-width: 150px; /* Sätt en maxbredd för att förhindra för stora bilder */
+  max-height: 150px; /* Begränsa höjden för bilder */
+  border-radius: 8px;
+  object-fit: cover; /* Håller proportionerna */
+  margin-bottom: 8px; /* Lägg till lite mellanrum under bilden */
+}
+
+.cardBody {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px; /* Lägg till mellanrum mellan elementen */
+}
+
+.productLink {
+  text-decoration: none;
+  color: #df8080;
+}
+
+.productLink:visited,
+.productLink:active {
+  color: #df8080;
+
+}
+
+.productLink:hover {
+  color: #8e6767;
+  text-decoration: underline;
+}
+
+.addToCartButton {
+  background-color: #df8080;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 8px;
+}
+
+.addToCartButton:hover {
+  background-color: #8e6767;
+}

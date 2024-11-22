@@ -1,0 +1,23 @@
+.DesktopNavigation {
+  display: flex;
+}
+
+.MobileNavigation {
+  display: none;
+  .menuIcon{
+    background-color: #df8080;
+    border: none;
+    border-radius: 4px;
+  }
+}
+
+/* På mindre skärmar visas MobileNavigation och DesktopNavigation döljs */
+@media (max-width: 768px) {
+  .DesktopNavigation {
+    display: none;
+  }
+  .MobileNavigation {
+    display: flex;
+    align-items: center;
+  }
+}

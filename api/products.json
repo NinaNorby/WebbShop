@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "title": "Christmas Tree",
+        "description": "Beautiful artificial Christmas tree.",
+        "price": 499,
+        "inStock": 10,
+        "imageUrl": "https://i.postimg.cc/Z53Lb5jv/insung-yoon-D0-FDd4-Ye-B08-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Christmas Lights",
+        "description": "Warm LED Christmas lights.",
+        "price": 199,
+        "inStock": 20,
+        "imageUrl": "https://i.postimg.cc/dtDZ22Nc/david-angel-Bwh-Cs4e-WPR4-unsplash.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Christmas Wreath",
+        "description": "Festive wreath for your door.",
+        "price": 99,
+        "inStock": 15,
+        "imageUrl": "https://i.postimg.cc/63Bc1xr2/jez-timms-c-OE85-BJq33c-unsplash.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Snowflake Ornaments",
+        "description": "Set of beautiful snowflake ornaments.",
+        "price": 150,
+        "inStock": 25,
+        "imageUrl": "https://i.postimg.cc/zv6nNsgk/kelly-sikkema-Ql-L-MIF7-Xjc-unsplash.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Santa Hat",
+        "description": "Classic red Santa hat with white trim.",
+        "price": 50,
+        "inStock": 100,
+        "imageUrl": "https://i.postimg.cc/nrBWQft3/christian-testa-TFBfn0-wt-N0-unsplash.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Christmas Stocking",
+        "description": "Traditional Christmas stocking for gifts.",
+        "price": 75,
+        "inStock": 40,
+        "imageUrl": "https://i.postimg.cc/kMHMQQP8/brooks-rice-GU6-GJz-FTb-0-unsplash.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Gift Wrapping Paper",
+        "description": "Festive gift wrapping paper, 5 sheets.",
+        "price": 25,
+        "inStock": 60,
+        "imageUrl": "https://i.postimg.cc/L8w0vs6x/nathan-lemon-W7nbak-Rx1-Ks-unsplash.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Christmas Garland",
+        "description": "Decorative garland for your home.",
+        "price": 120,
+        "inStock": 30,
+        "imageUrl": "https://i.postimg.cc/W3WZ6ds3/mel-poole-VXdbmnx-O3-KQ-unsplash.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Christmas Star",
+        "description": "Shining star for the Christmas tree top.",
+        "price": 80,
+        "inStock": 50,
+        "imageUrl": "https://i.postimg.cc/C59fX9Bp/dean-david-XIh-Px-VMv-Q0w-unsplash.jpg"
+    },
+    {
+        "id": 10,
+        "title": "LED Snowman",
+        "description": "LED snowman decoration.",
+        "price": 150,
+        "inStock": 25,
+        "imageUrl": "https://i.postimg.cc/T30nY7Bg/cristiano-firmani-3-D1-Ex-KTAEv-A-unsplash.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Christmas Bells",
+        "description": "Gold bells for festive decorations.",
+        "price": 30,
+        "inStock": 200,
+        "imageUrl": "https://i.postimg.cc/632Zc9qf/sixteen-miles-out-83j-UT93u-A4-Y-unsplash.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Candy Cane Ornaments",
+        "description": "Set of 6 candy cane ornaments.",
+        "price": 45,
+        "inStock": 80,
+        "imageUrl": "https://i.postimg.cc/pdy5V2fM/jennifer-bonauer-vn-Ixbfat7-DM-unsplash.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Holiday Candle Set",
+        "description": "Scented candles with holiday fragrance.",
+        "price": 250,
+        "inStock": 15,
+        "imageUrl": "https://i.postimg.cc/SRLJ1jhC/kelly-sikkema-0vd-Lxhrb1-Qw-unsplash.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Christmas Tree Skirt",
+        "description": "Beautiful skirt for the Christmas tree.",
+        "price": 180,
+        "inStock": 20,
+        "imageUrl": "https://i.postimg.cc/8PH7hFwV/frames-for-your-heart-a-N21j-B8-Gf-Ks-unsplash.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Nutcracker Soldier",
+        "description": "Classic nutcracker soldier decoration.",
+        "price": 300,
+        "inStock": 10,
+        "imageUrl": "https://i.postimg.cc/cLLrTs5t/jim-degrandis-lf-OTAIK50vg-unsplash.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Christmas Countdown Calendar",
+        "description": "Countdown calendar to Christmas.",
+        "price": 200,
+        "inStock": 18,
+        "imageUrl": "https://i.postimg.cc/jj3hXx6M/elena-mozhvilo-Cw-IOn-ANQW-A-unsplash.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Winter Wonderland Sign",
+        "description": "Wooden 'Winter Wonderland' sign.",
+        "price": 120,
+        "inStock": 30,
+        "imageUrl": "https://i.postimg.cc/j5Hxt9Fr/aaron-burden-xt-IYGB0-KEqc-unsplash.jpg"
+    },
+    {
+        "id": 18,
+        "title": "Angel Tree Topper",
+        "description": "Beautiful angel for the tree top.",
+        "price": 220,
+        "inStock": 12,
+        "imageUrl": "https://i.postimg.cc/QCSjW7D4/eugene-zhyvchik-gsrz-YHQmk-g-unsplash.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Pine Cone Ornaments",
+        "description": "Set of 10 pine cone ornaments.",
+        "price": 75,
+        "inStock": 45,
+        "imageUrl": "https://i.postimg.cc/K81mR4Hf/ksenia-Nr-LJI85-AQ4-unsplash.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Festive Mug",
+        "description": "Holiday-themed ceramic mug.",
+        "price": 60,
+        "inStock": 70,
+        "imageUrl": "https://i.postimg.cc/8cyVCVdx/toa-heftiba-Ev-Vgv3xi1-Fc-unsplash.jpg"
+    }
+    
+]

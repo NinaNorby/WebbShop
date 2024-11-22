@@ -1,0 +1,27 @@
+.shoppingCartWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .shoppingCartHeading {
+    color: #df8080;
+  }
+  .shoppingCartLI {
+    color: #df8080;
+    text-align: left;
+    text-decoration: none;
+  }
+}
+.ShoppingCartDiv {
+  p {
+    color: rgb(234, 43, 43);
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .shoppingCartImg {
+    border-radius: 5%;
+    max-width: 400px;
+  }
+}
