@@ -29,7 +29,7 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
   );
 };
 
-/* useCart är en då en funktion /hook som  ska tillåta mig hämta info om kundkorgen/ cart från CartContext. Jag kommer då kunna se se vilka produkter som finns i cartItems och lägga till nya produkter i cart via addtocart.*/
+/* useCart är  då en funktion /hook som  ska tillåta mig hämta info om kundkorgen/ cart från CartContext. Jag kommer då kunna se se vilka produkter som finns i cartItems och lägga till nya produkter i cart via addtocart.*/
 export const useCart = () => {
   const context = useContext(CartContext);
   if (!context) {

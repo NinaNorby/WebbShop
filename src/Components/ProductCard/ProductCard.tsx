@@ -1,6 +1,7 @@
-import { Link } from "react-router-dom"; // Importera Link från react-router-dom
-import { useCart } from "../../Contexts/CartContext";
+import { Link } from "react-router-dom";
+// import { useCart } from "../../Contexts/CartContext";
 import { IProduct } from "../../Models/IProduct";
+import AddToCartButton from "../AddToCartButton/AddToCartButton";
 import styles from "./ProductCard.module.css";
 
 interface ProductCardProps {
@@ -8,7 +9,7 @@ interface ProductCardProps {
 }
 
 export const ProductCard = ({ product }: ProductCardProps) => {
-  const { addToCart } = useCart(); // Access addToCart från context
+  // const { addToCart } = useCart(); // Access addToCart från context
 
   return (
     <div className={styles.productCardWrapper}>
@@ -21,13 +22,8 @@ export const ProductCard = ({ product }: ProductCardProps) => {
       </h2>
       <p>{product.description}</p>
       <p>Price: {product.price} kr</p>
-      {/* Kanpp för att lägga till i kundkorg */}
-      <button
-        className={styles.addToCartButton}
-        onClick={() => addToCart(product)}
-      >
-        Add to Cart
-      </button>
+      {/* Add to cart knapp-komponenten */}
+      <AddToCartButton product={product} />
     </div>
   );
 };

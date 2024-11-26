@@ -1,9 +1,8 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { useCart } from "../../Contexts/CartContext";
-import styles from "./ProductDetail.module.css";
 import { IProduct } from "../../Models/IProduct";
-
+import AddToCartButton from "../AddToCartButton/AddToCartButton";
+import styles from "./ProductDetail.module.css";
 
 const ProductDetail = () => {
   const { id } = useParams<{ id: string }>();
@@ -11,10 +10,12 @@ const ProductDetail = () => {
   const [error, setError] = useState<string | null>(null);
   const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:5100";
 
-  // Använder min CartContext för att lägga till produkterna i shoppingCart
-  const { addToCart } = useCart();
-
   useEffect(() => {
+    if (!id) {
+      setError("Invalid product ID.");
+      return;
+    }
+
     const fetchProduct = async () => {
       try {
         const response = await fetch(`${apiUrl}/api/products/${id}`);
@@ -37,7 +38,9 @@ const ProductDetail = () => {
     return <div>{error}</div>;
   }
 
-  if (!product) return <div>Loading...</div>;
+  if (!product) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className={styles.productDetailWrapper}>
@@ -50,13 +53,7 @@ const ProductDetail = () => {
       <p>{product.description}</p>
       <p>Price: {product.price} kr</p>
       <p>In Stock: {product.inStock}</p>
-      {/* Knappen kommer att ska anropaa "addToCart" och skickar den aktuella produkten */}
-      <button
-        className={styles.addToCartButton}
-        onClick={() => addToCart(product)}
-      >
-        Add to Cart
-      </button>
+      <AddToCartButton product={product} />
     </div>
   );
 };

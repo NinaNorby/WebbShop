@@ -1,14 +1,13 @@
 import styles from "./Header.module.css";
+interface HeaderProps {
+  companyName: string;
+}
 
-export const Header = () => {
-  let companyname: string = "The Holiday Cabin Shop" ;
+export const Header = ({ companyName }: HeaderProps) => {
   return (
-    <>
-      <header className="header">
-        {/* Istället för att använda en h1 ska man kaunna utifrån komponenter kunna hantera det.  */}
-        <h1 className={styles.companyName}>{companyname} </h1>
-      </header>
-    </>
+    <header className={styles.header}>
+      <h1 className={styles.companyName}>{companyName}</h1>
+    </header>
   );
 };
 

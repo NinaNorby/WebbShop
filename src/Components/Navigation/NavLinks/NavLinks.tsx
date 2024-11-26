@@ -7,12 +7,12 @@ const NavLinks = ({ onClick }: { onClick?: () => void }) => (
   <ul className={styles.navMenu}>
     <li className={styles.navItem}> 
       <Link to="/" onClick={onClick} className={styles.navLink}>
-        Home
+      <i className="fa-solid fa-house"></i> Home 
       </Link>
     </li>
     <li className={styles.navItem}>
       <Link to="/cart" onClick={onClick} className={styles.navLink}>
-        Shopping cart 
+      <i className="fa-solid fa-cart-shopping"></i> Shopping cart 
       </Link>
     </li>
   </ul>
