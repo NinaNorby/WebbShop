@@ -15,6 +15,7 @@ import { ShoppingCartPage } from "./Pages/ShoppingCartPage/ShoppingCartPage";
 
 // CSS
 import "./App.css";
+import './variables.css'
 
 function App() {
   return (

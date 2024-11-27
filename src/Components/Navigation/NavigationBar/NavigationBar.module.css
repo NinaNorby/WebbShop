@@ -5,7 +5,7 @@
 .MobileNavigation {
   display: none;
   .menuIcon{
-    background-color: #df8080;
+    background-color: var(--hanburger-NavIcon-bg-color);
     border: none;
     border-radius: 4px;
   }

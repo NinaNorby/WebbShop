@@ -1,9 +1,9 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import userEvent from "@testing-library/user-event"; // För att simulera interaktion
-import { MemoryRouter } from "react-router-dom"; // För att testa routing
+import userEvent from "@testing-library/user-event"; 
+import { MemoryRouter } from "react-router-dom"; 
 import { ProductCard } from "./ProductCard";
-import { mockProducts } from "../../Mocks/mockProducts"; // Importerar mock-data
+import { mockProducts } from "../../Mocks/mockProducts"; 
 
 describe("ProductCard component", () => {
   it("should display product title and price", () => {

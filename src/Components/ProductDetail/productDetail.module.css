@@ -4,9 +4,9 @@
     align-items: center;
     margin: 20px;
     padding: 20px;
-    background-color: #0d2f3541;
+    background-color: var(--productDetail-bg-color);
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--productDetail-boxShadow-color);
     max-width: 800px;
     margin: 0 auto; 
   }
@@ -20,13 +20,13 @@
   
   h1 {
     font-size: 2rem;
-    color: #df8080;
+    color: var(--productDetail-h1-color);
     margin-bottom: 10px;
   }
   
   p {
     font-size: 1rem;
-    color: #ffffff;
+    color: var( --productDetail-p-color);
     margin: 5px 0;
   }
   

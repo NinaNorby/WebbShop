@@ -12,14 +12,14 @@
   
   .navLink {
     text-decoration: none;
-    color: white;
+    color: var(--primary-font-color);
     font-weight: bold;
     padding: 0.5rem;
     transition: color 0.3s ease, background-color 0.3s ease;
   }
   
   .navLink:hover {
-    color: #df8080;
+    color: var(--hover-font-color);
     border-radius: 4px;
   }
   

@@ -23,7 +23,7 @@ const ShoppingCart = () => {
       {/* Om cartitems är 0 kommer <p>. texten att visas */}
       {cartItems.length === 0 ? (
         <div className={styles.ShoppingCartDiv}>
-          <p>Your shopping cart is empty! </p>
+          <p>. . . is empty! </p>
           <img
             className={styles.shoppingCartImg}
             src="https://i.postimg.cc/K8cwkqkS/jem-sahagun-Bwz0-Cbs85w-unsplash.jpg"

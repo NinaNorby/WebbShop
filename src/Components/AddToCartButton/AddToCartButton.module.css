@@ -1,20 +1,27 @@
 .addToCartButton {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #df8080;
-  color: white;
+  background-color: var(--primary-btn-bg-color);
+  color: var(--primary-btn-font-color);
   font-size: 1rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .addToCartButton:hover {
-  background-color: #8e6767;
+  background-color:var(--hover-font-color);
 }
 
-/* Media query för mindre skärmar */
+/* Knappen blir grön i 1 sek när knappen Add to Cart har klickats */
+.addToCartButton.clicked {
+  background-color: var(--clicked-btn-bg-color);
+  color: var(--clicked-btn-font-color);
+  transform: scale(1.05);
+}
+
+/* Media Q/ CSS för mindre skärmar */
 @media (max-width: 768px) {
   .addToCartButton {
     padding: 8px 16px;
@@ -22,7 +29,7 @@
   }
 }
 
-/* Media query mobiltelefoner*/
+/* Media Q/CSS mobiltelefoner */
 @media (max-width: 480px) {
   .addToCartButton {
     font-size: 0.8rem;

@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { MemoryRouter } from "react-router-dom"; // Lägg till MemoryRouter
+import { MemoryRouter } from "react-router-dom"; 
 import { ProductList } from "./ProductList";
 import { IProduct } from "../../Models/IProduct";
 
@@ -25,14 +25,14 @@ const mockProducts: IProduct[] = [
 
 describe("ProductList component", () => {
   it("should display a list of products", () => {
-    // Wrappa komponenten med MemoryRouter
+    // Wrappar komponenten med MemoryRouter
     render(
       <MemoryRouter>
         <ProductList products={mockProducts} />
       </MemoryRouter>
     );
 
-    // Kontrollera att produkttitlarna visas
+    // Kontrollerar att produkttitlarna visas
     expect(screen.getByText("Christmas Tree")).toBeInTheDocument();
     expect(screen.getByText("Christmas Lights")).toBeInTheDocument();
   });

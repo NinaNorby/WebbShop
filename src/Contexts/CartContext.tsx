@@ -1,9 +1,9 @@
-//Jag skapar Contex efter att ha läst i Reacts dokumentaion för att slippa skicka props mellan alla komponenter nu när jag ska möjliggöra att man kan lägga i varor i kundkorgen  https://react.dev/learn/passing-data-deeply-with-context. Som jag förstått det så kommer den
+//Jag skapade Contex efter att ha läst i Reacts dokumentaion för att slippa skicka props mellan alla komponenter nu när jag ska möjliggöra att man kan lägga i varor i kundkorgen  https://react.dev/learn/passing-data-deeply-with-context.
 
 import { createContext, useContext, useState, ReactNode } from 'react';
 import { IProduct } from '../Models/IProduct';
 
-// Skapar ett CartContext med en tomt cärde 
+// Skapar ett CartContext med en tomt värde 
 const CartContext = createContext<{
   // ska vara en En array över produkter som finns i kundkorgen.
   cartItems: IProduct[];

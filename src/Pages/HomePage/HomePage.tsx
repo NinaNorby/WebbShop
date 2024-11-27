@@ -2,6 +2,7 @@
 import { Home } from "../../Components/Home/Home";
 import { IProduct } from "../../Models/IProduct";
 
+
 interface HomePageProps {
   products?: IProduct[];
 }

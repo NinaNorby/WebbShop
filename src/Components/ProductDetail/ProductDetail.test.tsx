@@ -5,7 +5,7 @@ import ProductDetail from "./ProductDetail";
 import { mockProducts } from "../../Mocks/mockProducts";
 
 
-//* Den här "mockfunktionen" används för att jag vill simulera olika scenarier när man hämtar produkter. Produkt finns, Produkt finns  ej , samt fel url
+//* Den här "mockfunktionen" används för att jag vill simulera olika scenarier när man hämtar produkter. Produkt finns, Produkt finns ej , samt fel url
 // vi.mock använder jag för att ersätta den faktiska fetch-funktionen.
 vi.mock("../../Utilities/fetch", () => ({
   //vi.fn är återigen en Vitest funktion som tar in en sträng

@@ -1,10 +1,39 @@
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px; 
+    background-image: url("https://i.postimg.cc/zBrmD0yV/michael-benz-IZ2sg-QKIh-M-unsplash.jpg");
+    background-size: cover;
+    background-position:  center;
+    opacity: 0.10;
+    z-index: -1; /*bilden läggs bakom texten */
+    border: solid rgb(0, 0, 0);
+  }
+}
 
 .companyName {
-  /* border: 1px solid black; */
+  position: relative; /* Sätts till relative för texten ska vara över bakgrundsbilden */
+  font-family: var(--header-font-family);
   font-size: 4rem;
-  color: #df8080;
+  color: var(--secondary-font-color);
   font-weight: bold;
   text-align: center;
   margin: 2rem;
-}
+  
 
+  /* CSS för att få till min styling på headertexten */
+  background: var(--header-radial-gradiet-font-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

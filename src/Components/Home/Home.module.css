@@ -1,11 +1,13 @@
-
-
 .heading{
-    text-align: center;
-    color: #DF8080;
+  font-size: 3rem;
+  color:var(--home-heading-color);
+  font-family:var(--home-heading-font-family);
+  text-align: center;
 }
-.homepageParagraph{
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+
+
+.homepageParagraph {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }

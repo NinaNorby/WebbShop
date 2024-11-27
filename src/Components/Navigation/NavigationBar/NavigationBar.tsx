@@ -1,5 +1,3 @@
-
-
 import DesktopNavigation from '../DesktopNavigation/DesktopNavigation';
 import MobileNavigation from '../MobileNavigation/MobileNavigation';
 import styles from './NavigationBar.module.css';
