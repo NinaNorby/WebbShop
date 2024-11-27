@@ -16,6 +16,7 @@ import { ShoppingCartPage } from "./Pages/ShoppingCartPage/ShoppingCartPage";
 // CSS
 import "./App.css";
 import './variables.css'
+import { Footer } from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route path="/cart" element={<ShoppingCartPage />} />
           </Routes>
         </Router>
+        <Footer/>
       </CartProvider>
     </div>
   );

@@ -4,12 +4,18 @@
   flex-direction: column;
   align-items: center;
 
-  .shoppingCartLI {
-    color:var(--secondary-font-color);
-    list-style: none;
-  }
+}
+.shoppingCartLI {
+  color: var( --shoppingcart-item-color);
+  list-style: none;
+  font-size: var(  --shoppingcart-font-size);
+}
+
+.shoppingCartHeading {
+  font-family: var(--shopping-cart-font-family);
 }
 .ShoppingCartDiv {
+  font-family: var(--shopping-cart-font-family);
   p {
     color: var(--warning-font-color);
     text-align: center;
@@ -19,6 +25,6 @@
   .shoppingCartImg {
     border-radius: 5%;
     max-width: 400px;
-    opacity: 0.40;
+    opacity: 0.4;
   }
 }
