@@ -48,6 +48,11 @@
   --shoppingcart-font-size: 1rem;
   --warning-font-color: #d02626;
 
+  --shoppingcart-total-color: #ffff;
+  --shoppingcart-total-font-size: 1.7rem;
+  --shoppingcart-total-font-style: italic;
+  
   /* footer componet */
+
   --footer-font-color: #ffffff;
 }
