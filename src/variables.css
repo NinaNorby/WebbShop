@@ -2,55 +2,52 @@
   /* Webbsidans bakgrundsfärg */
   --website-bg-color: #071e22;
   --primary-font-family: "Poppins", serif;
-
   --primary-font-color: #ffff;
-  
+
   /* Navlink comopnent */
   --hanburger-NavIcon-bg-color: #df8080;
   --navlink-hover-font-color: #ffff;
   --navlink-font-color: #df8080;
-  
+
   /* ProductDetail component */
   --productDetail-bg-color: rgba(51, 68, 71, 0.255);
   --productDetail-boxShadow-color: 0 4px 6px rgba(0, 0, 0, 0.1);
   --productDetail-h1-color: #b08d8d;
   --productDetail-p-color: #ffffff;
-  
+
   /* Home component */
   --home-heading-color: #ffffff;
   --home-heading-font-family: "Borel", cursive;
-  
+
   /* Header component */
   --header-font-family: "Borel", cursive;
   --header-radial-gradiet-font-color: radial-gradient(
     circle,
-    #ffffff,
     #df8080,
-    #071e22
-    );
-    
-    /* Add to cart component */
-    --primary-btn-font-color: #ffffff;
-    --primary-btn-bg-color: #df8080;
-    --hover-btn-bg-color: #8e6767;
-    --clicked-btn-bg-color: #688e67;
-    --clicked-btn-font-color: #032801;
-    --hover-font-color: #8e6767;
-    
-    /* productcard */
-    --product-card-border: 1px solid #071e22;
-    --product-card-link-color: #b08d8d;
-    --product-card-link-hover-color: #df8080;
-    --product-card-link-decoration: none;
-    
-    
-    
-    /* Shopping cart component */
-    --shopping-cart-font-family: "Borel", cursive;
-    --shoppingcart-item-color:#ffffff;
-    --shoppingcart-font-size:1rem;
-    --warning-font-color: #d02626;
-    
+    /* #071e22, */ #ffffff,
+    #ffffff
+  );
+
+  /* Add to cart component */
+  --primary-btn-font-color: #ffffff;
+  --primary-btn-bg-color: #df8080;
+  --hover-btn-bg-color: #8e6767;
+  --clicked-btn-bg-color: #688e67;
+  --clicked-btn-font-color: #032801;
+  --hover-font-color: #8e6767;
+
+  /* productcard */
+  --product-card-border: 1px solid #071e22;
+  --product-card-link-color: #b08d8d;
+  --product-card-link-hover-color: #df8080;
+  --product-card-link-decoration: none;
+
+  /* Shopping cart component */
+  --shopping-cart-font-family: "Borel", cursive;
+  --shoppingcart-item-color: #ffffff;
+  --shoppingcart-font-size: 1rem;
+  --warning-font-color: #d02626;
+
   /* footer componet */
   --footer-font-color: #ffffff;
 }
