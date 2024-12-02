@@ -14,10 +14,13 @@
   color: var(--navlink-hover-font-color);
   font-weight: 400;
   padding: 0.5rem;
-  transition: color 0.3s ease, background-color 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+  display: inline-block; /*Behövde ändra till inline block så att man kan applicera min transform i yaxeln i min navlink under :hover då den inte kan läggas direkt på en Link  */
 }
 
 .navLink:hover {
   color: var(--navlink-font-color);
+  transform: translateY(-4px); /*höjer home och shopping cart texten 4 px i höjdled*/
+  font-weight: 600;
 
 }
