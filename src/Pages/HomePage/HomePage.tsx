@@ -10,7 +10,7 @@ interface HomePageProps {
 export const HomePage = ({ products }: HomePageProps) => {
   return (
     <div>
-      <Home products={products} /> {/* Skickar vidare produkter */}
+      <Home products={products} /> {/* Skickar vidare produkterna */}
     </div>
   );
 };

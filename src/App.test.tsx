@@ -35,6 +35,7 @@ describe("App component", () => {
       return (
         content.includes("©") &&
         content.includes("2024") &&
+        //  kontrollerar om det finns ett <p>-element.
         element?.tagName.toLowerCase() === "p"
       );
     });
