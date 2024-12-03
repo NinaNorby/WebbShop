@@ -1,5 +1,3 @@
- // Importera din ShoppingCart komponent när den är klar
-
 import ShoppingCart from "../../Components/ShoppingCart/ShoppingCart"
 
 
